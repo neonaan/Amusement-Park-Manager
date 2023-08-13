@@ -1,0 +1,112 @@
+body, html {
+	background-color: #360568;
+	height: 100%;
+}
+
+body * {
+	font-family: 'Nunito', sans-serif;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.title-screen {
+    border: 5px solid;
+    border-radius: 25px;
+    border-color: #ec24ca;
+    background-color: #990000;
+    padding: 20px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: larger;
+}
+
+.navigation {
+    display: block;
+}
+
+.button {
+	background-color: #5B2A86;
+    border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	font-size: 20px;
+	margin: 8px auto;
+	border-radius: 12px;
+	width: auto;
+}
+
+.button:hover {
+	cursor: pointer;
+	background-color: #360568;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+    border: 5px solid;
+    border-radius: 25px;
+    border-color: #242d47;
+    background-color: #7785AC;
+    padding: 20px;
+}
+
+.tab-content {
+    border: 5px solid;
+    border-radius: 25px;
+    border-color: #242d47;
+    background-color: #7785AC;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 20px;
+}
+
+input[type=text] {
+    color: #000000;
+    text-align: left;
+}
+
+input[type=submit] {
+    color: #000000;
+}
+
+select {
+    color: #000000;
+}
+
+option {
+    color: black;
+}
+
+table, td, th {
+    border: 1px solid white;
+}
+
+table {
+    align-self: center;
+    border-collapse: collapse;
+    border-color: #FFFFFF;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.result-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
