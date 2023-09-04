@@ -14,7 +14,8 @@ function debugAlertMessage($message) {
 function connectToDB() {
     global $db_conn;
 
-    $db_conn = OCILogon("ora_kchen467", "a85984896", "dbhost.students.cs.ubc.ca:1522/stu");
+    // ADD CREDENTIALS HERE:
+    $db_conn = OCILogon("ora_CWL", "aSID", "dbhost.students.cs.ubc.ca:1522/stu");
 
     if ($db_conn) {
         debugAlertMessage("Database is Connected");
